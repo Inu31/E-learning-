@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>E-learning</title>
+        <style>
+            li{
+                display:inline-block;
+                margin:10px;
+                color: blue;
+                height:20px}
+                 
+            #id{
+                color:darkblue
+            }
+             </style>
+    </head>
+    
+    <body style="background-image:linear-gradient(yellow,white,lightblue);">
+        <header style="height:80px;font-size: 60px;text-align:center;background-image:linear-gradient(yellow,white,lightblue);color:darkblue">Learning Kingdom
+        </header>
+        <center>
+        <nav style="background-color: darkblue;position: sticky;top:0;">
+            <ul>
+                <li style="font-size: 30px;margin-bottom: 20px;"><a href="Home.html"style="color:white;">Home</a></li>
+                <li style="font-size: 30px;margin-bottom: 20px;"><a href="Scientist.html"style="color:white;">Scientists</a></li>
+                <li style="font-size: 30px;margin-bottom: 20px;"><a href="Quiz.html"style="color:white;">Quiz</a></li>
+                <li style="font-size: 30px;margin-bottom: 20px;color:white;"><a href="Vidoes.html"style="color:white;">Videos</a></li>
+                <li style="font-size: 30px;margin-bottom: 20px;color:white;"><a href="Contact Us.html"style="color:white">Contact Us</a></li>
+            </ul>
+     </nav>
+    </center>
+     <p style="font-size:50px;color:darkblue"><b>Quiz</b></p>
+     <p style="color: darkblue;font-size:40px;">This is quiz about Science day :-</p>
+     <p>
+         <form style="font-size:30px;color:darkblue;">
+             1. When is world science day celebrated?<br>
+             <input type="radio" name="quiz1">10 November
+             <input type="radio" name="quiz1">18 November
+             <input type="radio" name="quiz1">1 December
+              <br>
+              <br>
+            
+             2. Which year is the first world science day celebrated?<br>
+             <input type="radio" name="quiz2">2010
+             <input type="radio" name="quiz2">2002
+             <input type="radio" name="quiz2">2001
+             <br>
+             <br>
+
+             3. Sir C.V. Raman awarded Nobel Prize on _________ was a First Asian person.<br>
+             <input type="radio" name="quiz3">1930
+             <input type="radio" name="quiz3">1935
+             <input type="radio" name="quiz3">1940
+             <br>
+             <br>
+
+             4. UNESCO headquarters is located in ?<br>
+             <input type="radio" name="quiz4">Geneva, Switzerland
+             <input type="radio" name="quiz4">Paris, France
+             <input type="radio" name="quiz4">London, England
+             <br>
+             <br>
+             
+             5. When is science day celebrated in India?<br> 
+             <input type="radio" name="quiz5">January 15
+             <input type="radio" name="quiz5">March 2
+             <input type="radio" name="quiz5">February 28
+            <br>
+            <br>
+
+            6. What did C.V Raman discover?<br>
+            <input type="radio" name="quiz6">Raman Star
+            <input type="radio" name="quiz6">Raman Effect
+            <input type="radio" name="quiz6">Raman Process
+            <br>
+            <br>
+ 
+            7. What was theme for 2020 National Science Day?<br>
+            <input type="radio" name="quiz7">Science for nation Building
+            <input type="radio" name="quiz7">Wealth from Waste
+            <input type="radio" name="quiz7">Women in Science
+            <br>
+            <br>
+            8.When was C.V born?<br>
+            <input type="radio" name="quiz8">7 November 1888
+            <input type="radio" name="quiz8">7 October 1869
+            <input type="radio" name="quiz8">23 January 1897
+         </form>
+     </p>
+     <button onclick="answers();">
+     See Answers
+     </button>
+     <div id="id1"style="font-size:30px;color:darkblue">
+    </div>
+    <script>
+    function answers(){
+        document.getElementById("id1").innerHTML="1.10 November<br>2.2002<br>3.1930<br>4.Paris,France<br>5.February 28<br>6.Raman Effect<br>7.Women in science<br>8.7 November 1888";
+    }
+    </script>
+     </body>
+     <hr size="2"color="darkblue">
+     <footer style="font-size: 20px;color: darkblue;">Anirban <br>Copyright ©</footer>
+     </html>
